@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+nav{
+    background-image: linear-gradient(#D64244,#820D20);
+    height:120px;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav i{
+    margin-right: 10px;
+}
+.input-group-text{
+    color:white;
+    font-weight: bold;
+    background-image: linear-gradient(#D64244,#820D20);
+    border:2px solid #820D20;
+    cursor: pointer;
+}
+.input-group-text:hover{
+    color:#820D20;
+    background-image: linear-gradient(white,white);
+    border:2px solid #820D20;
+}
+.td_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    margin-left: 10px;
+}
+.btn i{
+    margin-right: 8px;
+}
